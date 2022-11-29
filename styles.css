@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 400px 200px 600px;
+    grid-template-rows: 200px 200px 200px;
+}
+
+h1{
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.one{
+    grid-column: 1/ span 3;
+}
+
+.two{
+    grid-row: 2/ span 4;
+}
